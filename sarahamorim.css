@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+    box-sizing: border-box;
+}
+ body{
+    height: 700px;
+    width: 1470px;
+    border: white;
+    position: absolute;
+ }
+.container{
+    width: 100%;
+    height: 10vh;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    position: fixed;
+    
+
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+/*
+.button{
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    margin-left: 500px;
+    color: white;
+    font-size: 158px;
+    left: 30opx;
+}
+*/
+nav{
+    flex: 1;
+    text-align: center;
+    margin-left: 700px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+nav ul li a{
+    color: white;
+    padding: 0px 10px;
+    
+    
+    
+
+}
+nav ul li:hover, button:hover{
+    background-color: red;
+    
+    
+    
+}
+.usuario{
+    width: 11.2%;
+    height: 2.8vh;
+    background-position: center;
+    background-size: cover;
+    padding-left: 1%;
+    padding-right: 8%;
+    margin-right: 150px;
+    margin-top: 25px;
+    align-items: center;
+    
+
+}
+.area-estudantil{
+    margin-left: 500px;
+    margin-top: 100PX;
+    position: absolute;
+    width: 500px;
+    height: 280px;
+    text-align: end;
+    align-items: center;
+    background-color: rgb(52, 52, 231);
+    border-radius: 15px;
+}
+.area-estudantil a{
+    display: block;
+    margin-right: 200px;
+    text-align: center;
+    margin-top: -220px;
+    color: aliceblue;
+    transition: transform 0.5s;
+    transform: scale(1.7);
+}
+.area-estudantil a:hover{
+    transform: scale(1.9);
+}
+.area-estudantil img{
+    margin-top: 80px;
+}
+.area-estudantil h3{
+    margin-right: 150px;
+    margin-top: -20px;
+}
+.area-estudantil h4{
+    color: antiquewhite;
+    margin-top: 60px;
+    margin-right: 150px;
+    text-align: center;
+}
+.boletim{
+    top: 420px;
+    width: 170px;
+    height: 170px;
+    left: 340px;
+    text-align: center;
+    position: absolute;
+    background-color: rgb(52, 52, 231);
+    border-radius: 10px;
+}
+.boletim a{
+    display: block;
+    color: aliceblue;
+    margin-top: -40px;
+    text-align: center;
+    align-items: center;
+}
+.horario{
+    top: 420px;
+    left: 1000px;
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(52, 52, 231);
+    border-radius: 10px;
+}
+.horario a{
+    display: block;
+    color: aliceblue;
+    margin-top: -45px;
+    text-align: center;
+}
+.calendario{
+    position: absolute;
+    left: 670px;
+    margin-top: 450px;
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    align-items: center; 
+    background-color: rgb(52, 52, 231);
+    border-radius: 10px;
+}
+.calendario a{
+    display: block; 
+    color: aliceblue; 
+    margin-top: -45px;
+    text-align: center;
+    align-items: center;
+}
+.eventos{
+    position: absolute;
+    text-align: center;
+    left: 60px;
+    margin-top: 370px;
+    width: 170px;
+    height: 170px;
+    color: white;
+    background-color: rgb(52, 52, 231);
+    border-radius: 10px;
+}
+.eventos a{
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    margin-top: -50px;
+    
+}
+.eventos img{
+    margin-left: -7px;
+}
+.materiais{
+    margin-top: 375px;
+    margin-left: 1270px;
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(52, 52, 231);
+    border-radius: 10px;
+}
+.materiais a{
+    display: block;
+    color: aliceblue;
+    margin-top: -45px;
+}
+.transitionBackground{
+    transition: background-color 0.5s;
+}
+.transitionBackground:hover{
+    background-color: red;
+}
+.transitionSize{
+    transition: transform 1s;
+}
+.transitionSize:hover{
+    transform: scale(1.2);
+}
+.transitionSize a{
+    transition: transform 0.2s;
+}
+.transitionSize a:hover{
+    transform: scale(1.2);
+}
+.sageal{
+    width: 3px;
+    margin-top: 50px;
+}
+.border{
+    border-radius:10%;
+}
+.sageal img{
+    border-radius: 10%;
+}
